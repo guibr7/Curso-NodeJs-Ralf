@@ -1,1 +1,26 @@
-<h1>Olá!</h1>
+<form action="/cadastrar" method="post">
+    <img src="images/icon.png" alt="">
+    <input type="text"  name="nome" id="" placeholder="Nome" class="form-control">
+     <input type="number" name="idade" id=""placeholder="Idade"class="form-control">
+      <input type="submit" value="Cadastrar" name="" id="" class="btn btn-primary">
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Selecionar</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {{#each resposta}}
+            <tr>
+                <td>{{nome}}</td>
+                <td>{{idade}}</td>
+                <td><a href="selecionar/{{id}}">Selecionar</a></td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
