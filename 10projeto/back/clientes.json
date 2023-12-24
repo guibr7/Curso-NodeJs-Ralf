@@ -1,11 +1,6 @@
 {
   "clientes": [
     {
-      "nome": "Marcos",
-      "idade": 33,
-      "id": 1
-    },
-    {
       "nome": "Lucilene",
       "idade": 42,
       "id": 2
@@ -16,19 +11,14 @@
       "id": 3
     },
     {
-      "nome": "Ana",
-      "idade": 19,
-      "id": 4
-    },
-    {
-      "nome": "Guilherme",
-      "idade": "18",
-      "id": 5
-    },
-    {
       "nome": "Sergio",
       "idade": "46",
       "id": 6
+    },
+    {
+      "nome": "Patrícia dos Reis",
+      "idade": "32",
+      "id": 7
     }
   ]
 }
