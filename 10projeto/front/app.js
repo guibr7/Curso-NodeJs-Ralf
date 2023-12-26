@@ -22,7 +22,7 @@ app.set('views', './views');
 app.get('/', (req, res) => {
     fetch('http://localhost:3000/clientes',{method:'GET'})
     .then(resposta => resposta.json())
-    .then(resposta => res.render('inicio',{resposta}))
+    .then(resposta => res.render('inicio', { resposta, title: 'Início' }))
     .catch(error => { res.status(500).send('Erro ao carregar dados');
     });
 });
@@ -43,11 +43,12 @@ app.post('/cadastrar',(req,res)=>{
 
 //Selecionar
 app.get('/selecionar/:id',(req, res)=>{
-    let id = req.params.id;
-
+    //Captura id
+    let id = req.params.id; 
+    
     fetch('http://localhost:3000/clientes/'+id, {method:'GET'})
     .then(resposta => resposta.json())
-    .then(resposta => res.render('selecionar', {entrouPagina:true,dados:resposta}))
+    .then(resposta => res.render('selecionar', {dados:resposta,title:resposta.nome}))
 });
 
 //Editar
