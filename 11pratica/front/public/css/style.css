@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.formulario{
+    width: 500px;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+    padding: 10px;
+    margin: 100px auto;
+   
+}
+.dadoExibir{
+    width: 400px;
+    margin: 10px auto;
+}
+
+
+

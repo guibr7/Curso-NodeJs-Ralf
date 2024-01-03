@@ -1,18 +1,25 @@
-<table  class="table table-striped">
+<table class="table">
+    <img src="../images/mercado.jpg" alt="">
     <thead>
-        <tr>
-            <td>Produto</td>
-            <td>Quantidade em estoque</td>
-            <td>Valor Unitário</td>
+        <tr >
+            <th>Produto</td>
+            <th>Quantidade em estoque</td>
+            <th>Valor Unitário</td>
+            <th>Selecionar</td>
         </tr>
     </thead>
-    <tbody>
-        
+    <tbody>    
+        {{#each produtos}}
             <tr>
                 <td>{{nome}}</td>
                 <td>{{quantidade}}</td>
-                <td>{{preco}}</td>
+                <td>R${{preco}}</td>
+                <td><a href="/selecionar{{id}}">Selecionar</a></td>
             </tr>
-       
+        {{/each}}    
     </tbody>
 </table>
+
+<a class='btn btn-primary' href="/cadastrar">Cadastrar produto</a>
+
+
