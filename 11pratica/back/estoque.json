@@ -1,0 +1,31 @@
+{
+    "estoque":[
+        {
+            "nome":"Alface",
+            "quantidade":30,
+            "preco":2,
+            "id":1
+        },
+        
+        {
+            "nome":"Café",
+            "quantidade":50,
+            "preco":6,
+            "id":2
+        },
+
+        {
+            "nome":"Pizza",
+            "quantidade":120,
+            "preco":18,
+            "id":3
+        },
+
+        {
+            "nome":"Iogurte",
+            "quantidade":60,
+            "preco":5,
+            "id":4
+        }
+    ]
+}
