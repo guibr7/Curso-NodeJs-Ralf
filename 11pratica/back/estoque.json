@@ -2,9 +2,9 @@
   "estoque": [
     {
       "nome": "Alface",
-      "quantidade": 30,
-      "preco": 2,
-      "id": 1
+      "quantidade": "",
+      "id": 1,
+      "preco": ""
     },
     {
       "nome": "Café",
@@ -23,36 +23,6 @@
       "quantidade": 60,
       "preco": 5,
       "id": 4
-    },
-    {
-      "nome": "teste",
-      "quantidade": "2",
-      "preco": "4",
-      "id": 5
-    },
-    {
-      "nome": "Bolo",
-      "quantidade": "30",
-      "preco": "8",
-      "id": 6
-    },
-    {
-      "nome": "salgado",
-      "quantidade": "100",
-      "preco": "1",
-      "id": 7
-    },
-    {
-      "nome": "salgado",
-      "quantidade": "100",
-      "preco": "1",
-      "id": 8
-    },
-    {
-      "nome": "salgado",
-      "quantidade": "100",
-      "preco": "1",
-      "id": 9
     }
   ]
 }

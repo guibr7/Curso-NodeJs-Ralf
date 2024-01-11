@@ -8,6 +8,10 @@ img{
     border-radius: 50%;
 }
 
+table>tbody>tr>td{
+    text-transform: initial;
+}
+
 .formulario{
     width: 500px;
     text-align: center;
@@ -19,7 +23,10 @@ img{
 .dadoExibir{
     width: 400px;
     margin: 10px auto;
+    text-align: center;
 }
 
-
+.nomeProduto{
+    text-align: center;
+}
 

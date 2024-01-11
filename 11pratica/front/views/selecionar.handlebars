@@ -1,0 +1,15 @@
+<body>
+    <form action="/editar" method="post" class="form-group formulario" >
+    <input  name="nome" type="text" value='{{produto.nome}}' class="form-control dadoExibir nomeProduto">
+    <input name='quantidade' type="number" min="1" placeholder="Quantidade" class="form-control dadoExibir">
+    <input name="preco" type="number"   placeholder="Preço" class="form-control dadoExibir t">
+    <input name="ident" type="hidden" value="{{produto.id}}" class="form-control dadoExibir t">
+    <button type="submit" class="btn btn-info">
+        <i class="bi bi-pencil-fill"></i>
+        Editar
+    </button>
+    <a href="/" class="btn btn-secondary">Voltar</a>
+</form>
+
+
+</body>
