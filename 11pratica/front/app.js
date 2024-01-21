@@ -19,7 +19,6 @@ app.get('/',(req,res)=>{
    
 })
 
-
 app.get('/cadastrar',(req,res)=>{
     res.render('cadastrar')
 })
@@ -37,8 +36,6 @@ app.post('/cadastrarproduto',(req,res)=>{
     body:JSON.stringify(produto),
     headers:{'Content-Type':'application/json'}})
     .then(res.redirect('/'))
-
-   
 })
 
 app.get('/selecionar/:id',(req,res)=>{
@@ -67,7 +64,6 @@ app.get('/excluir/:id',(req,res)=>{
     fetch('http://localhost:3000/estoque/'+id,{method:'DELETE'})
     .then(res.redirect('/'))
 })
-
 
 app.listen(8081,()=>{
     console.log('Servidor rodando em: http://localhost:8081')
