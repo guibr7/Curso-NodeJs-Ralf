@@ -1,10 +1,9 @@
 <body>
     <form action="/cadastrarproduto" method="post" class="form-group formulario">
     <input required name="nome" type="text" placeholder="Nome do produto" class="form-control dadoExibir">
-    <input required name='quantidade' type="number" min="1" placeholder="Quantidade em estoque" class="form-control dadoExibir">
-    <input required name="preco" type="number"   placeholder="Preço" class="form-control dadoExibir">
+    <input required name='quantidade' type="number" min="1"placeholder="Quantidade em estoque" class="form-control dadoExibir">
+    <input required name="preco" type="number" step="1.10"  placeholder="Preço unitário" class="form-control dadoExibir">
     <a href="/" class="btn btn-secondary">Voltar</a>
     <input type="submit" value="Cadastrar" class="btn btn-success">
- 
 </form>
 </body>

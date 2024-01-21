@@ -30,3 +30,7 @@ table>tbody>tr>td{
     text-align: center;
 }
 
+.linkDelete{
+    color: rgb(212, 2, 2);
+    font-weight: 600
+}

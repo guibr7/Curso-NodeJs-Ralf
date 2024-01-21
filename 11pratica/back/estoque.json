@@ -1,27 +1,27 @@
 {
   "estoque": [
     {
-      "nome": "Alface",
-      "quantidade": "",
-      "id": 1,
-      "preco": ""
+      "nome": "Coffee",
+      "quantidade": "100",
+      "preco": "7",
+      "id": 1
     },
     {
-      "nome": "Café",
-      "quantidade": 50,
-      "preco": 6,
+      "nome": "Chips",
+      "quantidade": "75",
+      "preco": "5",
       "id": 2
     },
     {
-      "nome": "Pizza",
-      "quantidade": 120,
-      "preco": 18,
+      "nome": "Yogurt",
+      "quantidade": "60",
+      "preco": "6",
       "id": 3
     },
     {
-      "nome": "Iogurte",
-      "quantidade": 60,
-      "preco": 5,
+      "nome": "Guaraná",
+      "quantidade": "120",
+      "preco": "8",
       "id": 4
     }
   ]

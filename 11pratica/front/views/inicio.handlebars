@@ -1,11 +1,12 @@
 <table class="table">
     <img src="../images/mercado.jpg" alt="">
     <thead>
-        <tr >
+        <tr>
             <th>Produto</td>
             <th>Quantidade em estoque</td>
             <th>Valor Unitário</td>
-            <th>Selecionar</td>
+            <th>Selecionar/Editar</td>
+            <th>Excluir</th>
         </tr>
     </thead>
     <tbody>    
@@ -15,6 +16,7 @@
                 <td>{{quantidade}}</td>
                 <td>R${{preco}}</td>
                 <td><a href="/selecionar/{{id}}">Selecionar</a></td>
+                <td><a href="/excluir/{{id}}" class="linkDelete">Excluir</a></td>
             </tr>
         {{/each}}    
     </tbody>

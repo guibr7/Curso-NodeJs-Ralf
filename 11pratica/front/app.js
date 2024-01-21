@@ -62,6 +62,12 @@ app.post('/editar', function(req, res){
     .then(res.redirect('/'));
 });
 
+app.get('/excluir/:id',(req,res)=>{
+    let id = req.params.id;
+    fetch('http://localhost:3000/estoque/'+id,{method:'DELETE'})
+    .then(res.redirect('/'))
+})
+
 
 app.listen(8081,()=>{
     console.log('Servidor rodando em: http://localhost:8081')
